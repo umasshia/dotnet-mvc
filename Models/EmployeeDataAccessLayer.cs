@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;        
 namespace MVCAdoDemo.Models{        
     public class EmployeeDataAccessLayer{            
-        string connectionString = "Server=tcp:sql-server-samu.database.windows.net,1433;Initial Catalog=sql-database;Persist Security Info=False;User ID=umasshia;Password=!m62xq^yYqSDeU;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";                
+        string connectionString = "YOUR CONNECTION STRING";                
         //To View all employees details              
         public IEnumerable<Employee> GetAllEmployees(){                
             List<Employee> lstemployee = new List<Employee>();                    
